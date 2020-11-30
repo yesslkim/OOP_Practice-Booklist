@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>My Booklist App</title>
 </head>
@@ -28,17 +28,18 @@
         <label for="isbn">ISBN#</label>
         <input type="text" id="isbn">
       </div>
-      <button type="submut">save</button>
+      <button type="submit" class="save-btn">save</button>
     </form>
-    <table>
+    <table class="book-list">
       <thead>
         <tr>
           <th>Title</th>
           <th>Author</th>
           <th>ISBN#</th>
+          <th>delete</th>
         </tr>
       </thead>
-      <tbody id="book-list"></tbody>
+      <tbody></tbody>
     </table>
   </div>
   <script src="./app.js"></script>
