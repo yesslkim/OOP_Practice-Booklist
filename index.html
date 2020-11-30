@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>My Booklist App</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>My Booklist App</h1>
+    <form id="book-form">
+      <div class="form-list">
+        <label for="title">Title</label>
+        <input type="text" id="title">
+      </div>
+      <div class="form-list">
+        <label for="author">Author</label>
+        <input type="text" id="author">
+      </div>
+      <div class="form-list">
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn">
+      </div>
+      <button type="submut">save</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN#</th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
