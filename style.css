@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body,
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 300px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 1px solid #000;
+}
+
+.wrap > h1 {
+	margin-bottom: 10px;
+}
+
+.form-list {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-list > label {
+	display: block;
+	min-width: 60px;
+	margin-right: 10px;
+}
+
+.form-list > input {
+	padding: 10px;
+	border: none;
+	background-color: #ddd;
+}
+
+.save-btn {
+	padding: 10px 20px;
+	border: none;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.book-list,
+.book-list th,
+.book-list tr,
+.book-list td {
+	border-collapse: collapse;
+}
+
+.book-list {
+	width: 100%;
+}
+
+.book-list tr {
+	border: 1px solid #000;
+}
+
+.book-list th {
+	background-color: #ddd;
+}
+
+.book-list td {
+	font-size: 13px;
+	text-align: center;
+}
+
+.delete-btn {
+	border: none;
+	background-color: #474747;
+	color: #fff;
+}
